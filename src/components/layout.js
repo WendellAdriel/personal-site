@@ -6,8 +6,16 @@ import styled from 'react-emotion'
 
 import Header from './Header'
 import Nav from './Nav'
+import Footer from './Footer'
+
+const Wrapper = styled('div')`
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+`
 
 const Main = styled('main')`
+  flex-grow: 1;
   width: 90%;
   margin-left: 5%;
   padding: 2rem 0;
@@ -21,8 +29,8 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             author {
-              name,
-              title,
+              name
+              title
               shortBio
             }
           }
@@ -32,7 +40,9 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Helmet
-          title={`${data.site.siteMetadata.author.name} | ${data.site.siteMetadata.author.title}`}
+          title={`${data.site.siteMetadata.author.name} | ${
+            data.site.siteMetadata.author.title
+          }`}
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
@@ -40,9 +50,12 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Header author={data.site.siteMetadata.author}/>
-        <Nav/>
-        <Main>{children}</Main>
+        <Wrapper>
+          <Header author={data.site.siteMetadata.author} />
+          <Nav />
+          <Main>{children}</Main>
+          <Footer author={data.site.siteMetadata.author} />
+        </Wrapper>
       </>
     )}
   />
