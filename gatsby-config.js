@@ -3,6 +3,7 @@ module.exports = {
     author: {
       name: 'Wendell Adriel',
       title: 'Software Engineer',
+      shortBio: 'Speaker, Writer, PHP/JS/Go/Open Source lover, Dungeon Master, Gamer',
       email: 'wendelladriel.ti@gmail.com',
       gravatar: 'd36a082aacb53b6f76869748fb4b81d4'
     }

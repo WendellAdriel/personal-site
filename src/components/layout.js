@@ -2,6 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import styled from 'react-emotion'
+
+import Header from './Header'
+import Nav from './Nav'
+
+const Main = styled('main')`
+  width: 90%;
+  margin-left: 5%;
+`
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -11,7 +20,8 @@ const Layout = ({ children }) => (
           siteMetadata {
             author {
               name,
-              title
+              title,
+              shortBio
             }
           }
         }
@@ -28,7 +38,9 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        {children}
+        <Header author={data.site.siteMetadata.author}/>
+        <Nav/>
+        <Main>{children}</Main>
       </>
     )}
   />
