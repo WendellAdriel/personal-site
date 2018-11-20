@@ -20,6 +20,10 @@ const Main = styled('main')`
   margin-left: 5%;
   padding: 2rem 0;
   color: #222;
+
+  @media (max-width: 767px) {
+    padding: 1rem 0;
+  }
 `
 
 const Layout = ({ children }) => (
