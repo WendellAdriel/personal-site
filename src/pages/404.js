@@ -1,10 +1,22 @@
 import React from 'react'
 import Layout from '../components/layout'
+import { css } from 'react-emotion'
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div className={css`
+      margin-top: 2rem;
+      text-align: center
+    `}>
+      <img
+        src="https://media.giphy.com/media/20k1punZ5bpmM/giphy.gif"
+        alt="Page not found"
+        className={css`
+          width: 50%;
+          height: auto;
+        `}
+      />
+    </div>
   </Layout>
 )
 
