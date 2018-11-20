@@ -5,7 +5,6 @@ import { css } from 'react-emotion'
 const NotFoundPage = () => (
   <Layout>
     <div className={css`
-      margin-top: 2rem;
       text-align: center
     `}>
       <img
