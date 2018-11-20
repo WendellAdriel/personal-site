@@ -26,7 +26,7 @@ module.exports = {
         short_name: 'wendell-adriel',
         start_url: '/',
         background_color: '#ffffff',
-        theme_color: '#000000',
+        theme_color: '#222222',
         display: 'minimal-ui',
         icon: 'src/images/profile.jpg',
       },

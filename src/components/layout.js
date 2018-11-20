@@ -10,6 +10,7 @@ import Nav from './Nav'
 const Main = styled('main')`
   width: 90%;
   margin-left: 5%;
+  color: #222;
 `
 
 const Layout = ({ children }) => (
