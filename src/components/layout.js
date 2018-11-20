@@ -32,6 +32,14 @@ const Layout = ({ children }) => (
               name
               title
               shortBio
+              social {
+                github
+                linkedin
+                twitter
+                medium
+                facebook
+                email
+              }
             }
           }
         }

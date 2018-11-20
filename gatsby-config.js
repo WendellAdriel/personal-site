@@ -4,8 +4,15 @@ module.exports = {
       name: 'Wendell Adriel',
       title: 'Software Engineer',
       shortBio: 'Speaker, Writer, PHP/JS/Go/Open Source lover, Dungeon Master, Gamer',
-      email: 'wendelladriel.ti@gmail.com',
-      gravatar: 'd36a082aacb53b6f76869748fb4b81d4'
+      gravatar: 'd36a082aacb53b6f76869748fb4b81d4',
+      social: {
+        github: 'https://github.com/WendellAdriel',
+        linkedin: 'https://linkedin.com/in/wendelladrielti/en',
+        twitter: 'https://twitter.com/wendell_adriel',
+        medium: 'https://medium.com/@wendell_adriel',
+        facebook: 'https://facebook.com/wendell.adriel.7',
+        email: 'mailto:wendelladriel.ti@gmail.com'
+      }
     }
   },
   plugins: [
