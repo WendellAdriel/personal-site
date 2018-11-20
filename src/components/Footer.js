@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled, { css } from 'react-emotion'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { css } from 'react-emotion'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import {
   faGithubSquare,
@@ -11,17 +10,7 @@ import {
   faFacebookSquare,
 } from '@fortawesome/free-brands-svg-icons'
 
-const FooterIcon = styled('a')`
-  background-image: none;
-  text-decoration: none;
-  color: #ddd;
-  font-size: 2.5rem;
-  margin-right: 1rem;
-
-  &:hover {
-    color: #fff;
-  }
-`
+import FooterIcon from './FooterIcon'
 
 const Footer = props => (
   <footer
@@ -37,29 +26,12 @@ const Footer = props => (
     `}
   >
     <div>
-      <FooterIcon href={props.author.social.github} target="_blank">
-        <FontAwesomeIcon icon={faGithubSquare} />
-      </FooterIcon>
-
-      <FooterIcon href={props.author.social.linkedin} target="_blank">
-        <FontAwesomeIcon icon={faLinkedin} />
-      </FooterIcon>
-
-      <FooterIcon href={props.author.social.twitter} target="_blank">
-        <FontAwesomeIcon icon={faTwitterSquare} />
-      </FooterIcon>
-
-      <FooterIcon href={props.author.social.medium} target="_blank">
-        <FontAwesomeIcon icon={faMedium} />
-      </FooterIcon>
-
-      <FooterIcon href={props.author.social.facebook} target="_blank">
-        <FontAwesomeIcon icon={faFacebookSquare} />
-      </FooterIcon>
-
-      <FooterIcon href={props.author.social.email} target="_blank">
-        <FontAwesomeIcon icon={faEnvelope} />
-      </FooterIcon>
+      <FooterIcon url={props.author.social.github} icon={faGithubSquare} />
+      <FooterIcon url={props.author.social.linkedin} icon={faLinkedin} />
+      <FooterIcon url={props.author.social.twitter} icon={faTwitterSquare} />
+      <FooterIcon url={props.author.social.medium} icon={faMedium} />
+      <FooterIcon url={props.author.social.facebook} icon={faFacebookSquare} />
+      <FooterIcon url={props.author.social.email} icon={faEnvelope} />
     </div>
     <div>
       Built with
