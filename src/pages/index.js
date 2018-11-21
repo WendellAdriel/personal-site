@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'react-emotion'
 
 import Layout from '../components/Layout'
+import { CustomTitle, JustifiedText } from '../utils/base-visual-components'
 import profileImage from '../images/profile.jpg'
 
 const Section = styled('section')`
@@ -31,9 +32,6 @@ const ProfileImage = styled('img')`
   max-height: 400px;
   border-radius: 5px;
 `
-
-const CustomTitle = styled('h3')`margin-top: 0;`
-const JustifiedText = styled('p')`text-align: justify;`
 
 export default () => (
   <Layout>

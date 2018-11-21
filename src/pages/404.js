@@ -1,23 +1,27 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import { css } from 'react-emotion'
+import styled from 'react-emotion'
+
+const Wrapper = styled('div')`text-align: center;`
+
+const NotFoundText = styled('h1')`
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  color: #F4442E;
+`
+
+const NotFoundImage = styled('img')`
+  width: 50%;
+  height: auto;
+`
 
 const NotFoundPage = () => (
   <Layout>
-    <div
-      className={css`
-        text-align: center;
-      `}
-    >
-      <img
-        src="https://media.giphy.com/media/20k1punZ5bpmM/giphy.gif"
-        alt="Page not found"
-        className={css`
-          width: 50%;
-          height: auto;
-        `}
-      />
-    </div>
+    <Wrapper>
+      <NotFoundText>Page not found :/</NotFoundText>
+      <NotFoundImage src="https://media.giphy.com/media/20k1punZ5bpmM/giphy.gif" alt="Page not found"/>
+    </Wrapper>
   </Layout>
 )
 
