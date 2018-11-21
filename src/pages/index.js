@@ -72,6 +72,11 @@ export default () => (
           <li>I really like to watch movies or series with my wife (even better while eating some popcorn);</li>
           <li>I like to create board/card games, I just do it for fun and to play with friends;</li>
         </ul>
+
+        <h4>
+          Do you want to know more about me and/or my work, say hi, talk about development, 
+          methodologies or any of the hobbies above? Get in touch using the icons on the footer! xD
+        </h4>
       </div>
     </Section>
   </Layout>

@@ -5,15 +5,6 @@ import { faCode, faDesktop, faMobileAlt, faDatabase, faCogs, faChartLine } from 
 import Layout from '../components/Layout'
 import SkillItem from '../components/SkillItem'
 
-
-
-// ARCHITECTURE  #272727 <i class="far fa-object-group"></i>
-// BACK-END      #fed766 <i class="fas fa-code"></i>
-// FRONT-END     #23c9a8 <i class="fas fa-desktop"></i>
-// MOBILE        #26547c <i class="fas fa-mobile-alt"></i>
-// DATABASES     #de6449 <i class="fas fa-database"></i>
-// DEVOPS        #407899 <i class="fas fa-cogs"></i>
-// METHODOLOGIES #f49f0a <i class="fas fa-chart-line"></i>
 export default () => (
   <Layout>
     <SkillItem skill="Architecture" bg="#272727" icon={faObjectGroup}>
