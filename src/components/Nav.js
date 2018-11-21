@@ -47,7 +47,12 @@ export default () => (
           }
         `}
       >
-        <StyledLink to={page.route} activeStyle={{color: "#23c9a8", border: "4px dashed #23c9a8"}}>{page.name}</StyledLink>
+        <StyledLink
+          to={page.route}
+          activeStyle={{ color: '#23c9a8', border: '4px dashed #23c9a8' }}
+        >
+          {page.name}
+        </StyledLink>
       </div>
     ))}
   </Nav>

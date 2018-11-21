@@ -15,7 +15,7 @@ const SkillSection = styled('section')`
   border-radius: 5px;
   width: 100%;
   margin-bottom: 2rem;
-  
+
   @media (max-width: 767px) {
     flex-direction: column;
   }
@@ -63,16 +63,14 @@ const SkillDescription = styled('div')`
   padding-left: 1rem;
 `
 
-const SkillItem = (props) => (
+const SkillItem = props => (
   <SkillSection bg={props.bg}>
     <SkillIcon>
-      <FontAwesomeIcon icon={props.icon}/>
+      <FontAwesomeIcon icon={props.icon} />
     </SkillIcon>
     <SkillDescription>
       <SkillName>{props.skill}</SkillName>
-      <JustifiedText>
-        {props.children}
-      </JustifiedText>
+      <JustifiedText>{props.children}</JustifiedText>
     </SkillDescription>
   </SkillSection>
 )
@@ -81,7 +79,7 @@ SkillItem.propTypes = {
   skill: PropTypes.string.isRequired,
   bg: PropTypes.string.isRequired,
   icon: PropTypes.object.isRequired,
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 }
 
 export default SkillItem
