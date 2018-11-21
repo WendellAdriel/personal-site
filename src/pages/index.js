@@ -72,6 +72,10 @@ export default () => (
             development;
           </li>
           <li>
+            I have already mentored several people who were starting out as
+            software developers;
+          </li>
+          <li>
             I like to participate in developer groups to talk about development,
             methodologies, etc. For this I use mainly Telegram, Slack and
             Facebook;
