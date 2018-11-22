@@ -27,8 +27,7 @@ const StyledLink = styled(Link)`
   padding: 0.5rem;
 
   &:hover {
-    color: #23c9a8;
-    border: 4px dashed #23c9a8;
+    border: 4px dashed #1ca086;
   }
 `
 
