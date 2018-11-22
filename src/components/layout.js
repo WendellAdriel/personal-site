@@ -61,6 +61,7 @@ const Layout = ({ children }) => (
             rel="author"
             href="https://plus.google.com/+WendellAdriel?rel=author"
           />
+          <link rel="canonical" href="https://wendelladriel.com" />
 
           <meta charset="utf-8" />
           <meta
