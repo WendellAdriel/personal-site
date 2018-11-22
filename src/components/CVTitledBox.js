@@ -29,7 +29,7 @@ const CVBox = styled('div')`
 `
 
 const CVTItemTitle = styled('div')`
-  width: 100%;  
+  width: 100%;
   font-weight: 700;
   font-size: 1.2rem;
   text-align: center;
@@ -37,16 +37,16 @@ const CVTItemTitle = styled('div')`
 `
 
 const CVTitledBox = props => (
-    <CVBox color={props.color}>
-        <CVTItemTitle>{props.title}</CVTItemTitle>
-        <div>{props.description}</div>
-    </CVBox>
+  <CVBox color={props.color}>
+    <CVTItemTitle>{props.title}</CVTItemTitle>
+    <div>{props.description}</div>
+  </CVBox>
 )
 
 CVTitledBox.propTypes = {
-    color: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 }
 
 export default CVTitledBox

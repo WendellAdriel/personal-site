@@ -34,7 +34,7 @@ const Footer = props => (
       <FooterIcon url={props.author.social.email} icon={faEnvelope} />
     </div>
     <div>
-      Built with <span style={{color: 'red'}}>❤</span> by {props.author.name}
+      Built with <span style={{ color: 'red' }}>❤</span> by {props.author.name}
     </div>
   </StyledFooter>
 )

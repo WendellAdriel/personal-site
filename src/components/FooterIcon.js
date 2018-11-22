@@ -16,11 +16,7 @@ const IconLink = styled('a')`
 `
 
 const FooterIcon = props => (
-  <IconLink
-    href={props.url}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
+  <IconLink href={props.url} target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={props.icon} />
   </IconLink>
 )

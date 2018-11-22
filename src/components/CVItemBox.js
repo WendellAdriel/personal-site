@@ -29,21 +29,21 @@ const CVBox = styled('div')`
 `
 
 const CVItemDescription = styled('div')`
-  width: 100%;  
+  width: 100%;
   font-weight: 700;
   font-size: 1.2rem;
   text-align: center;
 `
 
 const CVItemBox = props => (
-    <CVBox color={props.color}>
-        <CVItemDescription>{props.description}</CVItemDescription>
-    </CVBox>
+  <CVBox color={props.color}>
+    <CVItemDescription>{props.description}</CVItemDescription>
+  </CVBox>
 )
 
 CVItemBox.propTypes = {
-    color: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 }
 
 export default CVItemBox
