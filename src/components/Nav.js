@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { css } from 'react-emotion'
+import styled from 'react-emotion'
 import { Link } from 'gatsby'
 
 const pages = [
@@ -21,6 +21,17 @@ const Nav = styled('nav')`
   }
 `
 
+const LinkWrapper = styled('div')`
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  @media (max-width: 767px) {
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+`
+
 const StyledLink = styled(Link)`
   background-image: none;
   text-decoration: none;
@@ -34,25 +45,14 @@ const StyledLink = styled(Link)`
 export default () => (
   <Nav>
     {pages.map(page => (
-      <div
-        key={page.route}
-        className={css`
-          margin-right: 2rem;
-          font-size: 1.5rem;
-          font-weight: bold;
-          @media (max-width: 767px) {
-            margin-bottom: 1rem;
-            margin-right: 0;
-          }
-        `}
-      >
+      <LinkWrapper key={page.route}>
         <StyledLink
           to={page.route}
           activeStyle={{ color: '#23c9a8', border: '4px dashed #23c9a8' }}
         >
           {page.name}
         </StyledLink>
-      </div>
+      </LinkWrapper>
     ))}
   </Nav>
 )

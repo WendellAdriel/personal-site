@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { css } from 'react-emotion'
+import styled from 'react-emotion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const iconStyle = css`
+const IconLink = styled('a')`
   background-image: none;
   text-decoration: none;
   color: #ddd;
@@ -16,14 +16,13 @@ const iconStyle = css`
 `
 
 const FooterIcon = props => (
-  <a
+  <IconLink
     href={props.url}
     target="_blank"
     rel="noopener noreferrer"
-    className={iconStyle}
   >
     <FontAwesomeIcon icon={props.icon} />
-  </a>
+  </IconLink>
 )
 
 FooterIcon.propTypes = {
