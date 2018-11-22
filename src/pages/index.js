@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'react-emotion'
 
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import { CustomTitle, JustifiedText } from '../utils/base-visual-components'
 import profileImage from '../images/profile.jpg'
 

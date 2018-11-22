@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'react-emotion'
 
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import CVTitledBox from '../components/CVTitledBox'
 import CVItemBox from '../components/CVItemBox'
 import data from '../utils/cv-data'

@@ -9,7 +9,7 @@ import {
   faChartLine,
 } from '@fortawesome/free-solid-svg-icons'
 
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import SkillItem from '../components/SkillItem'
 
 export default () => (
