@@ -80,6 +80,9 @@ export default () => (
             methodologies, etc. For this I use mainly Telegram, Slack and
             Facebook;
           </li>
+          <li>
+            I created a personal blog that you can check <strong><a href="https://bugsncoffees.com" target="_blank" rel="noopener noreferrer">here</a></strong>;
+          </li>
         </ul>
 
         <h3>Some of my hobbies</h3>

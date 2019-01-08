@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'react-emotion'
+import { faBlog } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import {
   faGithubSquare,
@@ -23,18 +24,19 @@ const StyledFooter = styled('footer')`
   padding: 0.6rem;
 `
 
-const Footer = props => (
+const Footer = ({ author }) => (
   <StyledFooter>
     <div>
-      <FooterIcon url={props.author.social.github} icon={faGithubSquare} />
-      <FooterIcon url={props.author.social.linkedin} icon={faLinkedin} />
-      <FooterIcon url={props.author.social.twitter} icon={faTwitterSquare} />
-      <FooterIcon url={props.author.social.medium} icon={faMedium} />
-      <FooterIcon url={props.author.social.facebook} icon={faFacebookSquare} />
-      <FooterIcon url={props.author.social.email} icon={faEnvelope} />
+      <FooterIcon url={author.social.blog} icon={faBlog} />
+      <FooterIcon url={author.social.github} icon={faGithubSquare} />
+      <FooterIcon url={author.social.linkedin} icon={faLinkedin} />
+      <FooterIcon url={author.social.twitter} icon={faTwitterSquare} />
+      <FooterIcon url={author.social.medium} icon={faMedium} />
+      <FooterIcon url={author.social.facebook} icon={faFacebookSquare} />
+      <FooterIcon url={author.social.email} icon={faEnvelope} />
     </div>
     <div>
-      Built with <span style={{ color: 'red' }}>❤</span> by {props.author.name}
+      Built with <span style={{ color: 'red' }}>❤</span> by {author.name}
     </div>
   </StyledFooter>
 )

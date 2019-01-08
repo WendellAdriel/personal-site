@@ -6,6 +6,7 @@ module.exports = {
       shortBio: 'Speaker, Writer, PHP/JS/Go/Open Source lover, Dungeon Master, Gamer',
       gravatar: 'd36a082aacb53b6f76869748fb4b81d4',
       social: {
+        blog: 'https://bugsncoffees.com',
         github: 'https://github.com/WendellAdriel',
         linkedin: 'https://linkedin.com/in/wendelladrielti/en',
         twitter: 'https://twitter.com/wendell_adriel',

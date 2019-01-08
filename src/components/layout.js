@@ -37,6 +37,7 @@ const Layout = ({ children }) => (
               title
               shortBio
               social {
+                blog
                 github
                 linkedin
                 twitter
