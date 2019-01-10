@@ -48,6 +48,7 @@ export default {
     'MySQL',
     'PostgreSQL',
     'Oracle',
+    'DynamoDB',
     'MongoDB',
     'Redis',
     'Git',
@@ -112,10 +113,17 @@ export default {
   ],
 
   volunteer: [
-    { title: 'Training Center, Mentor', description: 'Since Aug/2016' },
     {
       title: 'CodeShare - Creator, Mentor and Author',
       description: 'Since May/2015',
+    },
+    {
+      title: 'Training Center - Mentor and Open Source Contributor',
+      description: 'Since Aug/2016',
+    },
+    {
+      title: `Bugs n' Coffees - Creator and Author`,
+      description: 'Since Jan/2019',
     },
   ],
 }

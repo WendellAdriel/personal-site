@@ -81,7 +81,17 @@ export default () => (
             Facebook;
           </li>
           <li>
-            I created a personal blog that you can check <strong><a href="https://bugsncoffees.com" target="_blank" rel="noopener noreferrer">here</a></strong>;
+            I created a personal blog that you can check{' '}
+            <strong>
+              <a
+                href="https://bugsncoffees.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+            </strong>
+            ;
           </li>
         </ul>
 

@@ -76,7 +76,7 @@ export default () => (
       <strong>huge amount of data and complex queries.</strong> I have
       experience working with SQL databases:{' '}
       <strong>MySQL, MariaDB, PostgreSQL and Oracle</strong> and NoSQL databases
-      like: <strong>MongoDB, PouchDB, CouchDB and Redis.</strong>
+      like: <strong>DynamoDB, MongoDB, PouchDB, CouchDB and Redis.</strong>
     </SkillItem>
 
     <SkillItem skill="DevOps" bg="#407899" icon={faCogs}>
