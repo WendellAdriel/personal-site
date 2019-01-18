@@ -11,7 +11,6 @@ module.exports = {
         linkedin: 'https://linkedin.com/in/wendelladrielti/en',
         twitter: 'https://twitter.com/wendell_adriel',
         medium: 'https://medium.com/@wendell_adriel',
-        facebook: 'https://facebook.com/wendell.adriel.7',
         email: 'mailto:wendelladriel.ti@gmail.com'
       }
     }

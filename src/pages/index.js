@@ -76,11 +76,6 @@ export default () => (
             software developers;
           </li>
           <li>
-            I like to participate in developer groups to talk about development,
-            methodologies, etc. For this I use mainly Telegram, Slack and
-            Facebook;
-          </li>
-          <li>
             I created a personal blog that you can check{' '}
             <strong>
               <a
