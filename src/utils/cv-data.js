@@ -10,7 +10,7 @@ export default {
   languages: [
     { title: 'Portuguese', description: 'Native' },
     { title: 'English', description: 'Advanced' },
-    { title: 'French', description: 'Basic' },
+    { title: 'German', description: 'Basic' },
   ],
 
   certifications: [
@@ -70,12 +70,16 @@ export default {
 
   professional: [
     {
-      title: 'CrossOver, Chief Software Architect',
+      title: 'TrackStreet, Software Engineer',
       description: 'Since Mar/2018',
     },
     {
       title: 'Freelancer, Consultant in Web Application Development',
       description: 'Since Feb/2016',
+    },
+    {
+      title: 'CrossOver, Chief Software Architect',
+      description: 'Mar/2018 to Feb/2019',
     },
     {
       title: 'Accenture, Java Software Developer',
@@ -120,10 +124,6 @@ export default {
     {
       title: 'Training Center - Mentor and Open Source Contributor',
       description: 'Since Aug/2016',
-    },
-    {
-      title: `Bugs n' Coffees - Creator and Author`,
-      description: 'Since Jan/2019',
     },
   ],
 }

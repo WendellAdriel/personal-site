@@ -44,8 +44,8 @@ export default () => (
         <CustomTitle>Hey there...</CustomTitle>
 
         <JustifiedText>
-          I'm a <strong>Brazilian Software Engineer</strong>, but I'm living in
-          Portugal since 2016!
+          I'm a <strong>Brazilian Software Engineer</strong> living in Portugal
+          since 2016!
         </JustifiedText>
 
         <JustifiedText>
@@ -64,8 +64,16 @@ export default () => (
             in portuguese;
           </li>
           <li>
-            I have some Open Source Projects that you can check on my Github
-            Profile;
+            I have some <strong>Open Source Projects</strong> that you can check
+            on my{' '}
+            <a
+              href="https://github.com/WendellAdriel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github Profile
+            </a>
+            ;
           </li>
           <li>
             I already led some talks and some workshops about software
@@ -74,19 +82,6 @@ export default () => (
           <li>
             I have already mentored several people who were starting out as
             software developers;
-          </li>
-          <li>
-            I created a personal blog that you can check{' '}
-            <strong>
-              <a
-                href="https://bugsncoffees.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                here
-              </a>
-            </strong>
-            ;
           </li>
         </ul>
 
@@ -101,8 +96,8 @@ export default () => (
             it just for fun xD;
           </li>
           <li>
-            I really like to watch movies or series with my wife (even better
-            while eating some popcorn);
+            I really like to watch movies, series and animes (even better while
+            eating some popcorn);
           </li>
           <li>
             I like to create board/card games, I just do it for fun and to play

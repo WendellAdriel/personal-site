@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'react-emotion'
-import { faBlog } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import {
   faGithubSquare,
@@ -26,7 +25,6 @@ const StyledFooter = styled('footer')`
 const Footer = ({ author }) => (
   <StyledFooter>
     <div>
-      <FooterIcon url={author.social.blog} icon={faBlog} />
       <FooterIcon url={author.social.github} icon={faGithubSquare} />
       <FooterIcon url={author.social.linkedin} icon={faLinkedin} />
       <FooterIcon url={author.social.twitter} icon={faTwitterSquare} />
