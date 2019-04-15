@@ -20,6 +20,7 @@ const ImageWrapper = styled('div')`
   flex-shrink: 0;
   flex-basis: 30%;
   margin-right: 3rem;
+  text-align: center;
 
   @media (max-width: 767px) {
     margin-right: 0;
@@ -105,11 +106,13 @@ export default () => (
           </li>
         </ul>
 
-        <h4>
-          Do you want to know more about me and/or my work, say hi, talk about
-          development, methodologies or any of the hobbies above? Get in touch
-          using the icons on the footer! xD
-        </h4>
+        <JustifiedText>
+          <strong>
+            Do you want to know more about me and/or my work, say hi, talk about
+            development, methodologies or any of the hobbies above? Get in touch
+            using the icons on the footer! xD
+          </strong>
+        </JustifiedText>
       </div>
     </Section>
   </Layout>
