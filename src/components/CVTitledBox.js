@@ -33,7 +33,6 @@ const CVTItemTitle = styled('div')`
   font-weight: 700;
   font-size: 1.2rem;
   text-align: center;
-  text-decoration: underline;
 `
 
 const CVTitledBox = props => (

@@ -38,7 +38,9 @@ const StyledLink = styled(Link)`
   padding: 0.5rem;
 
   &:hover {
-    border: 4px dashed #1ca086;
+    background: #1ca086;
+    color: #fff;
+    border-radius: 3px;
   }
 `
 
@@ -48,7 +50,12 @@ export default () => (
       <LinkWrapper key={page.route}>
         <StyledLink
           to={page.route}
-          activeStyle={{ color: '#23c9a8', border: '4px dashed #23c9a8' }}
+          activeStyle={{
+            background: '#23c9a8',
+            color: '#fff',
+            borderRadius: '3px',
+            textShadow: 'none',
+          }}
         >
           {page.name}
         </StyledLink>

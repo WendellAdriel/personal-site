@@ -34,6 +34,12 @@ const ProfileImage = styled('img')`
   border-radius: 5px;
 `
 
+const ListLink = styled('a')`
+  font-weight: 700;
+  text-decoration: none;
+  background-image: none;
+`
+
 export default () => (
   <Layout>
     <Section>
@@ -61,24 +67,50 @@ export default () => (
         <h3>A little more about my work</h3>
         <ul>
           <li>
-            I casually write articles on Medium, technical or not, in english or
-            in portuguese;
+            I casually write articles on Medium, technical or not, in English or
+            in Portuguese;
+          </li>
+          <li>
+            I have a project called{' '}
+            <ListLink
+              href="https://codeshare.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CodeShare
+            </ListLink>
+            , to create free and high-quality content in Portuguese, to reach
+            more people in Brazil that didn't have the opportunity to learn
+            English yet;
+          </li>
+          <li>
+            I have a podcast called{' '}
+            <ListLink
+              href="https://codeshare.com.br/devtales"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              #devTales
+            </ListLink>
+            , also in Portuguese to talk with devs that are active in the
+            brazilian Open Source community to talk about career, development,
+            etc;
           </li>
           <li>
             I have some <strong>Open Source Projects</strong> that you can check
             on my{' '}
-            <a
+            <ListLink
               href="https://github.com/WendellAdriel"
               target="_blank"
               rel="noopener noreferrer"
             >
               Github Profile
-            </a>
+            </ListLink>
             ;
           </li>
           <li>
             I already led some talks and some workshops about software
-            development;
+            development, agile methodologies and career;
           </li>
           <li>
             I have already mentored several people who were starting out as
