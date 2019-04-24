@@ -67,8 +67,15 @@ export default () => (
         <h3>A little more about my work</h3>
         <ul>
           <li>
-            I casually write articles on Medium, technical or not, in English or
-            in Portuguese;
+            I casually write articles on{' '}
+            <ListLink
+              href="https://medium.com/@wendell_adriel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Medium
+            </ListLink>
+            , technical or not, in English or in Portuguese;
           </li>
           <li>
             I have a project called{' '}
@@ -81,7 +88,16 @@ export default () => (
             </ListLink>
             , to create free and high-quality content in Portuguese, to reach
             more people in Brazil that didn't have the opportunity to learn
-            English yet;
+            English yet. So when I write a post there I'll also publish it in
+            English on{' '}
+            <ListLink
+              href="https://dev.to/wendell_adriel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DEV.to
+            </ListLink>
+            ;
           </li>
           <li>
             I have a podcast called{' '}

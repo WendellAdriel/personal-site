@@ -3,7 +3,8 @@ module.exports = {
     author: {
       name: 'Wendell Adriel',
       title: 'Software Engineer',
-      shortBio: 'Speaker, Writer, PHP/JS/Go/Open Source lover, Dungeon Master, Gamer',
+      shortBio:
+        'Speaker, Writer, PHP/JS/Go/Open Source lover, Dungeon Master, Gamer',
       gravatar: 'd36a082aacb53b6f76869748fb4b81d4',
       social: {
         blog: 'https://bugsncoffees.com',
@@ -11,9 +12,10 @@ module.exports = {
         linkedin: 'https://linkedin.com/in/wendelladrielti/en',
         twitter: 'https://twitter.com/wendell_adriel',
         medium: 'https://medium.com/@wendell_adriel',
-        email: 'mailto:wendelladriel.ti@gmail.com'
-      }
-    }
+        dev: 'https://dev.to/wendell_adriel',
+        email: 'mailto:wendelladriel.ti@gmail.com',
+      },
+    },
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -43,6 +45,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }

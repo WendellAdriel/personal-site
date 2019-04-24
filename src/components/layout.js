@@ -42,6 +42,7 @@ const Layout = ({ children }) => (
                 linkedin
                 twitter
                 medium
+                dev
                 email
               }
             }

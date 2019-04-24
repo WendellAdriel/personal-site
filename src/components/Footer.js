@@ -7,6 +7,7 @@ import {
   faLinkedin,
   faTwitterSquare,
   faMedium,
+  faDev,
 } from '@fortawesome/free-brands-svg-icons'
 
 import FooterIcon from './FooterIcon'
@@ -29,6 +30,7 @@ const Footer = ({ author }) => (
       <FooterIcon url={author.social.linkedin} icon={faLinkedin} />
       <FooterIcon url={author.social.twitter} icon={faTwitterSquare} />
       <FooterIcon url={author.social.medium} icon={faMedium} />
+      <FooterIcon url={author.social.dev} icon={faDev} />
       <FooterIcon url={author.social.email} icon={faEnvelope} />
     </div>
     <div>
