@@ -96,6 +96,14 @@ export default () => (
               rel="noopener noreferrer"
             >
               DEV.to
+            </ListLink>{' '}
+            and{' '}
+            <ListLink
+              href="https://medium.com/@wendell_adriel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Medium
             </ListLink>
             ;
           </li>
