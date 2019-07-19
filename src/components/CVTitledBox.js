@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 
 const CVBox = styled('div')`
   display: flex;
+  width: 80%;
   flex-direction: column;
   flex-wrap: wrap;
   flex: 0 0 auto;
@@ -12,7 +13,7 @@ const CVBox = styled('div')`
   border: ${props => `5px dashed ${props.color}`};
   border-radius: 5px;
   padding: 1rem;
-  margin-right: 1rem;
+  margin-left: 5%;
   margin-bottom: 1rem;
 
   &:hover {
@@ -22,9 +23,9 @@ const CVBox = styled('div')`
   }
 
   @media (max-width: 767px) {
-    margin-right: 0;
     flex: 0 0 100%;
     width: 100%;
+    margin-left: 0;
   }
 `
 

@@ -6,7 +6,7 @@ const CVBox = styled('div')`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  flex: 0 0 20%;
+  flex: 1 20%;
   justify-content: center;
   align-items: center;
   border: ${props => `5px dashed ${props.color}`};

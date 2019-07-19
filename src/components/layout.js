@@ -16,12 +16,19 @@ const Wrapper = styled('div')`
 
 const Main = styled('main')`
   flex-grow: 1;
-  width: 90%;
-  margin-left: 5%;
+  width: 70%;
+  margin-left: 15%;
   padding: 2rem 0;
   color: #222;
 
+  @media (min-width: 768px) and (max-width: 1200px) {
+    width: 80%;
+    margin-left: 10%;
+  }
+
   @media (max-width: 767px) {
+    width: 90%;
+    margin-left: 5%;
     padding: 1rem 0;
   }
 `

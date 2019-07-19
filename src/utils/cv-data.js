@@ -70,6 +70,10 @@ export default {
 
   professional: [
     {
+      title: 'TrackStreet, Team Leader',
+      description: 'Since Jul/2019',
+    },
+    {
       title: 'TrackStreet, Software Engineer',
       description: 'Since Mar/2018',
     },
@@ -117,6 +121,10 @@ export default {
   ],
 
   volunteer: [
+    {
+      title: 'Coding Coach - Mentor and Open Source Contributor',
+      description: 'Since Jul/2019',
+    },
     {
       title: 'CodeShare - Creator, Mentor and Author',
       description: 'Since May/2015',
