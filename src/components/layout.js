@@ -7,6 +7,7 @@ import styled from 'react-emotion'
 import Header from './Header'
 import Nav from './Nav'
 import Footer from './Footer'
+import { colors } from '../utils/base-visual-components'
 
 const Wrapper = styled('div')`
   display: flex;
@@ -19,7 +20,7 @@ const Main = styled('main')`
   width: 70%;
   margin-left: 15%;
   padding: 2rem 0;
-  color: #222;
+  color: ${colors.darkgrey};
 
   @media (min-width: 768px) and (max-width: 1200px) {
     width: 80%;
@@ -77,7 +78,7 @@ const Layout = ({ children }) => (
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-          <meta name="theme-color" content="#222222" />
+          <meta name="theme-color" content={colors.darkgrey} />
 
           <meta
             name="description"

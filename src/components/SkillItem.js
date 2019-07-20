@@ -3,14 +3,14 @@ import styled from 'react-emotion'
 import PropTypes from 'prop-types'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import { JustifiedText } from '../utils/base-visual-components'
+import { colors, JustifiedText } from '../utils/base-visual-components'
 
 const SkillSection = styled('section')`
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   background-color: ${props => props.bg};
-  color: #fff;
+  color: ${colors.white};
   padding: 1rem;
   border-radius: 5px;
   width: 100%;
@@ -32,22 +32,22 @@ const SkillIcon = styled('div')`
   align-items: center;
   font-size: 4.5rem;
   padding-right: 1rem;
-  border-right: 1px solid #fff;
+  border-right: 1px solid ${colors.white};
 
   @media (max-width: 767px) {
     font-size: 3rem;
     padding-right: 0;
     padding-bottom: 1rem;
     border-right: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid ${colors.white};
   }
 `
 
 const SkillName = styled('h3')`
   margin-top: 0;
-  color: #fff;
+  color: ${colors.white};
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid ${colors.white};
 
   @media (max-width: 767px) {
     text-align: center;

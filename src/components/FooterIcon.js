@@ -3,15 +3,17 @@ import PropTypes from 'prop-types'
 import styled from 'react-emotion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import { colors } from '../utils/base-visual-components'
+
 const IconLink = styled('a')`
   background-image: none;
   text-decoration: none;
-  color: #ddd;
+  color: ${colors.lightgrey};
   font-size: 2.5rem;
   margin-right: 1rem;
 
   &:hover {
-    color: #fff;
+    color: ${colors.white};
   }
 `
 

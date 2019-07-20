@@ -2,6 +2,8 @@ import React from 'react'
 import Layout from '../components/layout'
 import styled from 'react-emotion'
 
+import { colors } from '../utils/base-visual-components'
+
 const Wrapper = styled('div')`
   text-align: center;
 `
@@ -10,7 +12,7 @@ const NotFoundText = styled('h1')`
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 3rem;
-  color: #f4442e;
+  color: ${colors.warning};
 `
 
 const NotFoundImage = styled('img')`

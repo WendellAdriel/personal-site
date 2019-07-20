@@ -11,10 +11,15 @@ import {
 
 import Layout from '../components/layout'
 import SkillItem from '../components/SkillItem'
+import { colors } from '../utils/base-visual-components'
 
 export default () => (
   <Layout>
-    <SkillItem skill="Architecture" bg="#272727" icon={faObjectGroup}>
+    <SkillItem
+      skill="Architecture"
+      bg={colors.architecture}
+      icon={faObjectGroup}
+    >
       Experience with defining, creating, maintaining and changing the
       architecture of large scale and/or large codebase apps. Experience with
       working with different types of architectures:
@@ -29,7 +34,7 @@ export default () => (
       to have the necessary knowledge to apply on the projects that I work on.
     </SkillItem>
 
-    <SkillItem skill="Back-end" bg="#8b7638" icon={faCode}>
+    <SkillItem skill="Back-end" bg={colors.back} icon={faCode}>
       I work with Back-end development since 2009. I have a lot of experience
       working with complex, large scale and large codebase apps. Always using
       the Best Practices to create high quality code, I try to build the
@@ -40,7 +45,7 @@ export default () => (
       <strong>PHP, JavaScript (Node.js), Go and Java.</strong>
     </SkillItem>
 
-    <SkillItem skill="Front-end" bg="#1ca086" icon={faDesktop}>
+    <SkillItem skill="Front-end" bg={colors.front} icon={faDesktop}>
       I work with Front-end development since 2009. I have a lot of experience
       working with complex, large scale and large codebase apps. Always using
       the Best Practices to create high quality code, I try to build the
@@ -61,7 +66,7 @@ export default () => (
       <strong>BEMCSS, RSCSS and Atomic Design.</strong>
     </SkillItem>
 
-    <SkillItem skill="Mobile" bg="#26547c" icon={faMobileAlt}>
+    <SkillItem skill="Mobile" bg={colors.mobile} icon={faMobileAlt}>
       I work with Mobile Development since 2015. I have experience building{' '}
       <strong>Hybrid and Native apps using JavaScript.</strong> I already worked
       in some projects with{' '}
@@ -71,7 +76,7 @@ export default () => (
       <strong>Mobile Banking</strong> solution.
     </SkillItem>
 
-    <SkillItem skill="Databases" bg="#ca5b43" icon={faDatabase}>
+    <SkillItem skill="Databases" bg={colors.db} icon={faDatabase}>
       I work with databases since 2009. I have a lot of experience working with{' '}
       <strong>huge amount of data and complex queries.</strong> I have
       experience working with SQL databases:{' '}
@@ -79,7 +84,7 @@ export default () => (
       like: <strong>DynamoDB, MongoDB, PouchDB, CouchDB and Redis.</strong>
     </SkillItem>
 
-    <SkillItem skill="DevOps" bg="#407899" icon={faCogs}>
+    <SkillItem skill="DevOps" bg={colors.devops} icon={faCogs}>
       I have a lot of experience working with Code Versioning tools, specially{' '}
       <strong>Git.</strong> I know how to work with different workflows like
       <strong> Gitflow, Forking Workflow, etc.</strong> I also have experience
@@ -88,7 +93,11 @@ export default () => (
       experience working with tools like <strong>Docker, Jenkins, etc.</strong>
     </SkillItem>
 
-    <SkillItem skill="Methodologies" bg="#f49f0a" icon={faChartLine}>
+    <SkillItem
+      skill="Methodologies"
+      bg={colors.methodologies}
+      icon={faChartLine}
+    >
       I love <strong>Agile Methodologies</strong> and I'm always reading
       something about it. I have a lot of experience with these methodologies,
       specially

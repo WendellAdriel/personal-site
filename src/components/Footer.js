@@ -11,6 +11,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 import FooterIcon from './FooterIcon'
+import { colors } from '../utils/base-visual-components'
 
 const StyledFooter = styled('footer')`
   display: flex;
@@ -18,8 +19,8 @@ const StyledFooter = styled('footer')`
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  background-color: #222;
-  color: #fff;
+  background-color: ${colors.darkgrey};
+  color: ${colors.white};
   padding: 0.6rem;
 `
 

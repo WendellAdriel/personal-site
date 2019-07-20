@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'react-emotion'
 import { Link } from 'gatsby'
 
+import { colors } from '../utils/base-visual-components'
+
 const pages = [
   { name: 'About', route: '/' },
   { name: 'Skills', route: '/skills' },
@@ -38,8 +40,8 @@ const StyledLink = styled(Link)`
   padding: 0.5rem;
 
   &:hover {
-    background: #1ca086;
-    color: #fff;
+    background: ${colors.navHover};
+    color: ${colors.white};
     border-radius: 3px;
   }
 `
@@ -51,8 +53,8 @@ export default () => (
         <StyledLink
           to={page.route}
           activeStyle={{
-            background: '#23c9a8',
-            color: '#fff',
+            background: colors.nav,
+            color: colors.white,
             borderRadius: '3px',
             textShadow: 'none',
           }}

@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'react-emotion'
 import PropTypes from 'prop-types'
 
+import { colors } from '../utils/base-visual-components'
+
 const CVBox = styled('div')`
   display: flex;
   width: 80%;
@@ -19,7 +21,7 @@ const CVBox = styled('div')`
   &:hover {
     background-color: ${props => props.color};
     border: ${props => `5px solid ${props.color}`};
-    color: #fff;
+    color: ${colors.white};
   }
 
   @media (max-width: 767px) {

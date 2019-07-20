@@ -5,11 +5,12 @@ import Layout from '../components/layout'
 import CVTitledBox from '../components/CVTitledBox'
 import CVItemBox from '../components/CVItemBox'
 import data from '../utils/cv-data'
+import { colors } from '../utils/base-visual-components'
 
 const CVTitle = styled('h2')`
   margin-top: 0;
   padding-bottom: 0.5rem;
-  border-bottom: 2px dashed #000;
+  border-bottom: 2px dashed ${colors.black};
   text-align: center;
 `
 
@@ -33,7 +34,7 @@ export default () => (
     <CVSection>
       {data.education.map(item => (
         <CVTitledBox
-          color="#ca5b43"
+          color={colors.education}
           title={item.title}
           description={item.description}
         />
@@ -44,7 +45,7 @@ export default () => (
     <CVSection>
       {data.languages.map(language => (
         <CVTitledBox
-          color="#407899"
+          color={colors.languages}
           title={language.title}
           description={language.description}
         />
@@ -55,7 +56,7 @@ export default () => (
     <CVSection>
       {data.certifications.map(cert => (
         <CVTitledBox
-          color="#f49f0a"
+          color={colors.certifications}
           title={cert.title}
           description={cert.description}
         />
@@ -65,7 +66,7 @@ export default () => (
     <CVTitle>Skills</CVTitle>
     <CVSection>
       {data.skills.map(skill => (
-        <CVItemBox color={data.colors[skill.type]} description={skill.name} />
+        <CVItemBox color={colors[skill.type]} description={skill.name} />
       ))}
     </CVSection>
 
@@ -73,7 +74,7 @@ export default () => (
     <CVSection>
       {data.professional.map(item => (
         <CVTitledBox
-          color="#26547c"
+          color={colors.professional}
           title={item.title}
           description={item.description}
         />
@@ -84,7 +85,7 @@ export default () => (
     <CVSection>
       {data.volunteer.map(item => (
         <CVTitledBox
-          color="#8b7638"
+          color={colors.volunteer}
           title={item.title}
           description={item.description}
         />
