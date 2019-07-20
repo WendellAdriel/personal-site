@@ -65,7 +65,7 @@ export default () => (
     <CVTitle>Skills</CVTitle>
     <CVSection>
       {data.skills.map(skill => (
-        <CVItemBox color="#1ca086" description={skill} />
+        <CVItemBox color={data.colors[skill.type]} description={skill.name} />
       ))}
     </CVSection>
 
