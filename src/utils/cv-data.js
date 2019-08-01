@@ -70,10 +70,6 @@ export default {
 
   professional: [
     {
-      title: 'TrackStreet, Team Leader',
-      description: 'Since Jul/2019',
-    },
-    {
       title: 'TrackStreet, Software Engineer',
       description: 'Since Mar/2018',
     },
