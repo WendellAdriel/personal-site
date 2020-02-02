@@ -56,12 +56,11 @@ export default () => (
         </JustifiedText>
 
         <JustifiedText>
-          I'm an enthusiastic about new technologies/methodologies and I also
-          love to share what I know with others. I started to work with software
-          development in 2009 as a Full Stack Developer and since then I worked
-          with many technologies like: HTML, CSS, JavaScript (Front-end and
-          Back-end), PHP, Java, Go, SQL and NoSQL databases, Docker and much
-          more, but my main stack is PHP and JS (Front-end and Back-end).
+          I started to work with software development in <strong>2009</strong>{' '}
+          as a<strong>Full Stack Developer</strong> and since then I worked with
+          many technologies like HTML, CSS, JavaScript (Front-end and Back-end),
+          PHP, Java, Go, SQL and NoSQL databases, Docker and much more. But my
+          main stack is <strong>PHP and JavaScript</strong>.
         </JustifiedText>
 
         <h3>A little more about my work</h3>
@@ -74,6 +73,14 @@ export default () => (
               rel="noopener noreferrer"
             >
               Medium
+            </ListLink>{' '}
+            and/or on{' '}
+            <ListLink
+              href="https://dev.to/wendell_adriel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DEV.to
             </ListLink>
             , technical or not, in English or in Portuguese;
           </li>
@@ -108,19 +115,6 @@ export default () => (
             ;
           </li>
           <li>
-            I have a podcast called{' '}
-            <ListLink
-              href="https://codeshare.com.br/devtales"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              #devTales
-            </ListLink>
-            , also in Portuguese to talk with devs that are active in the
-            brazilian Open Source community to talk about career, development,
-            etc;
-          </li>
-          <li>
             I have some <strong>Open Source Projects</strong> that you can check
             on my{' '}
             <ListLink
@@ -145,20 +139,24 @@ export default () => (
         <h3>Some of my hobbies</h3>
         <ul>
           <li>
-            I <strong>LOVE</strong> to play tabletop games, especially RPGs and
-            I'm a Dungeon Master since 2008;
-          </li>
-          <li>
-            I casually play the drums and bass guitar. I'm not good at it, I do
-            it just for fun xD;
-          </li>
-          <li>
-            I really like to watch movies, series and animes (even better while
-            eating some popcorn);
+            I write lyrics for songs and also play the drums and bass guitar,
+            but I'm not a pro;
           </li>
           <li>
             I like to create board/card games, I just do it for fun and to play
             with friends;
+          </li>
+          <li>
+            I love to take pictures of nature, landscapes and little details on
+            things that catch my attention
+          </li>
+          <li>
+            I love to play tabletop games, especially RPGs and I'm a Dungeon
+            Master since 2008;
+          </li>
+          <li>
+            I really like to watch movies, series and animes (even better while
+            eating some popcorn);
           </li>
         </ul>
 
